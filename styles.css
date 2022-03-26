@@ -1,0 +1,78 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.rating-card {
+  background-color: #252d37;
+  max-width: 440px;
+  padding: 2rem;
+}
+
+.rating-card__title {
+  color: white;
+}
+
+.rating-card__text {
+  color: #959eac;
+}
+
+.ratings {
+  color: #959eac;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0;
+}
+
+.ratings li {
+  background-color: aliceblue;
+  padding: 1rem;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#submit-btn {
+  color: white;
+  background-color: #fb7413;
+  border-radius: 2rem;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.thankyou-card {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

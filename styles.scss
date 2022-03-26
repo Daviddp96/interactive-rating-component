@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Overpass', sans-serif;
+    background-color: $very-dark-blue;
 }
 
 main {
@@ -19,13 +20,26 @@ main {
 
 //Rating State Card
 .rating-card {
-    background-color: $dark-blue;
+    background: linear-gradient(to bottom,#1e252f 5%,rgba(29, 36, 44, 0.479));
     max-width: 440px;
     padding: 2rem;
+    border-radius: 2rem;
 }
 
 .star {
-    //add star here
+    background-color: $dark-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+    svg {
+        transform: scale(1.1);
+    }
+
+    margin-bottom: 2.5rem;
 }
 
 .rating-card__title {
@@ -45,7 +59,7 @@ main {
     padding-left: 0;
 
     li {
-        background-color: aliceblue;
+        background-color: $dark-blue;
         padding: 1rem;
         width: 50px;
         height: 50px;
@@ -59,12 +73,12 @@ main {
     background-color: $orange;
     border-radius: 2rem;
     display: block;
-    font-weight: 700;
     letter-spacing: 2.5px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 8px;
+    padding: 14px 8px;
+    margin-top: 2.5rem;
 }
 
 // Thank You State Card

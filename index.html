@@ -21,28 +21,33 @@
           How did we do?
         </h2>
         <p class="rating-card__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-        <ul class="ratings">
-          <li class="rating">
-              <input type="radio" id="huey" name="drone" value="huey">
-              <label for="huey">1</label>            
-          </li>
-          <li class="rating">
-            <input type="radio" id="huey" name="drone" value="huey">
-            <label for="huey">2</label>        
-          </li>
-          <li class="rating">
-            <input type="radio" id="huey" name="drone" value="huey">
-            <label for="huey">3</label>    
-          </li>
-          <li class="rating">
-            <input type="radio" id="huey" name="drone" value="huey">
-            <label for="huey">4</label>    
-          </li>
-          <li class="rating">
-            <input type="radio" id="huey" name="drone" value="huey">
-            <label for="huey">5</label>    
-          </li>
-        </ul>
+        
+        <form action="#" class="card__form" id="cardRatingForm">
+          <div class="card__buttons">
+            <div>
+              <input type="radio" id="one" name="rating" value="1">
+              <label for="one" class="rating"><span class="rating__content">1</span></label>
+            </div>
+            <div>
+              <input type="radio" id="two" name="rating" value="2">
+              <label for="two" class="rating"><span class="rating__content">2</span></label>
+            </div>
+            <div>
+              <input type="radio" id="three" name="rating" value="3">
+              <label for="three" class="rating"><span class="rating__content">3</span></label>
+            </div>
+            <div>
+              <input type="radio" id="four" name="rating" value="4">
+              <label for="four" class="rating"><span class="rating__content">4</span></label>
+            </div>
+            <div>
+              <input type="radio" id="five" name="rating" value="5">
+              <label for="five" class="rating"><span class="rating__content">5</span></label>
+            </div>
+
+          </div>
+          <input type="submit" value="submit" class="card__rating-submit-btn">
+        </form>
         <a href="#" id="submit-btn">Submit</a>
       </div>
       <!-- Rating state end -->

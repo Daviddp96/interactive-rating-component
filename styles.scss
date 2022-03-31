@@ -19,12 +19,17 @@ main {
     min-height: 100vh;
 }
 
-//Rating State Card
-.rating-card {
+.card {
     background: linear-gradient(to bottom,#1e252f 5%,rgba(29, 36, 44, 0.479));
     max-width: 440px;
     padding: 2rem;
     border-radius: 2rem;
+}
+
+//Rating State Card
+.rating-card {
+    display: none;
+
 }
 
 .star {
@@ -121,7 +126,6 @@ input[type=radio] {
 
 // Thank You State Card
 .thankyou-card {
-    display: none;
 }
 
 // Footer

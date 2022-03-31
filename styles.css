@@ -24,12 +24,16 @@ main {
   min-height: 100vh;
 }
 
-.rating-card {
+.card {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1e252f), to(rgba(29, 36, 44, 0.479)));
   background: linear-gradient(to bottom, #1e252f 5%, rgba(29, 36, 44, 0.479));
   max-width: 440px;
   padding: 2rem;
   border-radius: 2rem;
+}
+
+.rating-card {
+  display: none;
 }
 
 .star {
@@ -136,10 +140,6 @@ input[type=radio]:checked + label {
 #submit-btn:hover {
   background-color: white;
   color: #fb7413;
-}
-
-.thankyou-card {
-  display: none;
 }
 
 footer {

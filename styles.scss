@@ -126,6 +126,23 @@ input[type=radio] {
 
 // Thank You State Card
 .thankyou-card {
+    text-align: center;
+
+    svg {
+
+    }
+}
+
+.selection-message {
+    color: $orange;
+}
+
+.thankyou-title {
+    color: $white;
+}
+
+.thankyou-text {
+    color: $light-grey;
 }
 
 // Footer

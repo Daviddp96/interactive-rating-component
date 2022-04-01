@@ -142,6 +142,22 @@ input[type=radio]:checked + label {
   color: #fb7413;
 }
 
+.thankyou-card {
+  text-align: center;
+}
+
+.selection-message {
+  color: #fb7413;
+}
+
+.thankyou-title {
+  color: white;
+}
+
+.thankyou-text {
+  color: #959eac;
+}
+
 footer {
   text-align: center;
 }

@@ -21,14 +21,15 @@ main {
 
 .card {
     background: linear-gradient(to bottom,#1e252f 5%,rgba(29, 36, 44, 0.479));
-    max-width: 440px;
-    padding: 2rem;
+    max-width: 416px;
+    max-height: 413px;
+    padding: 60px 32px;
     border-radius: 2rem;
 }
 
 //Rating State Card
 .rating-card {
-    display: none;
+    //display: none;
 
 }
 
@@ -40,6 +41,9 @@ main {
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    position: relative;
+    left: 3px;
+    bottom: 26px;
 
     svg {
         transform: scale(1.1);
@@ -51,11 +55,16 @@ main {
 .rating-card__title {
     color: $white;
     font-size: 28px;
+    position: relative;
+    bottom: 32px;
 }
 
 .rating-card__text {
     color: $light-grey;
-    margin: 0.5rem 0 2.5rem;
+    position: relative;
+    bottom: 42px;
+    line-height: 1.5;
+    //margin: 0.5rem 0 2.5rem;
 }
 
 //RATINGS
@@ -63,7 +72,9 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    position: relative;
+    bottom: 28px;
 }
 
 input[type=radio] {
@@ -83,8 +94,8 @@ input[type=radio] {
     position: relative;
     color: $light-grey;
     background-color: $dark-blue;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
     border-radius: 100%;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -111,9 +122,9 @@ input[type=radio] {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 14px 8px;
-    margin-top: 2.5rem;
-    width: 100%;
+    padding: 11px 8px;
+    //margin-top: 2.5rem;
+    width: 98%;
     transition: all 0.2s ease;
     cursor: pointer;
     font-size: 15px;
@@ -124,8 +135,13 @@ input[type=radio] {
     }
 }
 
+.last-btn {
+    margin-right: 6px;
+}
+
 // Thank You State Card
 .thankyou-card {
+    display: none;
     text-align: center;
 
     svg {

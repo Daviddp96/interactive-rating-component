@@ -29,7 +29,7 @@ main {
 
 //Rating State Card
 .rating-card {
-    //display: none;
+    display: none;
 
 }
 
@@ -141,24 +141,39 @@ input[type=radio] {
 
 // Thank You State Card
 .thankyou-card {
-    display: none;
+    //display: none;
     text-align: center;
 
     svg {
-
+        position: relative;
+        bottom: 17px;
+        right: 4px;
     }
 }
 
 .selection-message {
     color: $orange;
+    background-color: $dark-blue;
+    border-radius: 1rem;
+    padding: 0.3rem 0;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 15px;
 }
 
 .thankyou-title {
     color: $white;
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 0;
 }
 
 .thankyou-text {
     color: $light-grey;
+    line-height: 1.5;
+    width: 97%;
+    position: relative;
+    bottom: 4px;
 }
 
 // Footer

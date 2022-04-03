@@ -33,6 +33,10 @@ main {
   border-radius: 2rem;
 }
 
+.rating-card {
+  display: none;
+}
+
 .star {
   background-color: #252d37;
   display: -webkit-box;
@@ -152,20 +156,38 @@ input[type=radio]:checked + label {
 }
 
 .thankyou-card {
-  display: none;
   text-align: center;
+}
+
+.thankyou-card svg {
+  position: relative;
+  bottom: 17px;
+  right: 4px;
 }
 
 .selection-message {
   color: #fb7413;
+  background-color: #252d37;
+  border-radius: 1rem;
+  padding: 0.3rem 0;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .thankyou-title {
   color: white;
+  font-size: 28px;
+  margin-top: 35px;
+  margin-bottom: 0;
 }
 
 .thankyou-text {
   color: #959eac;
+  line-height: 1.5;
+  width: 97%;
+  position: relative;
+  bottom: 4px;
 }
 
 footer {

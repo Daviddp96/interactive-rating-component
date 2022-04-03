@@ -29,7 +29,6 @@ main {
 
 //Rating State Card
 .rating-card {
-    display: none;
 
 }
 
@@ -127,7 +126,7 @@ input[type=radio] {
     width: 98%;
     transition: all 0.2s ease;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
 
     &:hover {
         background-color: $white;
@@ -141,7 +140,7 @@ input[type=radio] {
 
 // Thank You State Card
 .thankyou-card {
-    //display: none;
+    display: none;
     text-align: center;
 
     svg {

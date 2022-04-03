@@ -33,10 +33,6 @@ main {
   border-radius: 2rem;
 }
 
-.rating-card {
-  display: none;
-}
-
 .star {
   background-color: #252d37;
   display: -webkit-box;
@@ -143,7 +139,7 @@ input[type=radio]:checked + label {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #submit-btn:hover {
@@ -156,6 +152,7 @@ input[type=radio]:checked + label {
 }
 
 .thankyou-card {
+  display: none;
   text-align: center;
 }
 

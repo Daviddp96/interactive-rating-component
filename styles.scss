@@ -28,10 +28,6 @@ main {
 }
 
 //Rating State Card
-.rating-card {
-
-}
-
 .star {
     background-color: $dark-blue;
     display: flex;
@@ -140,7 +136,6 @@ input[type=radio] {
 
 // Thank You State Card
 .thankyou-card {
-    display: none;
     text-align: center;
 
     svg {
@@ -173,6 +168,11 @@ input[type=radio] {
     width: 97%;
     position: relative;
     bottom: 4px;
+}
+
+//Visibility and Animations
+.hidden {
+    display: none;
 }
 
 // Footer

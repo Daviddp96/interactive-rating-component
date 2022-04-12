@@ -6,4 +6,11 @@ const cardForm = document.getElementById('card-form');
 
 cardForm.addEventListener("submit", function (e) {
     e.preventDefault();
+    const selectedRating = document.querySelector('input[type=radio]:checked').value;
+    if(selectedRating !== null) {
+        const userSelection = document.getElementById('selection-message__number');
+        userSelection.innerHTML = selectedRating;
+        ratingCard.classList.add('hidden');
+        thankYouCard.classList.remove('hidden');
+    }
 })

@@ -152,7 +152,6 @@ input[type=radio]:checked + label {
 }
 
 .thankyou-card {
-  display: none;
   text-align: center;
 }
 
@@ -185,6 +184,10 @@ input[type=radio]:checked + label {
   width: 97%;
   position: relative;
   bottom: 4px;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {

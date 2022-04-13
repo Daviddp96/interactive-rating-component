@@ -235,11 +235,11 @@ footer .attribution a:hover {
   }
 }
 
-@-webkit-keyframes fade-in-top {
+@-webkit-keyframes fade-bottom {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
   100% {
     opacity: 1;
@@ -248,11 +248,11 @@ footer .attribution a:hover {
   }
 }
 
-@keyframes fade-in-top {
+@keyframes fade-bottom {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
   100% {
     opacity: 1;
@@ -266,8 +266,38 @@ footer .attribution a:hover {
           animation: flip 1.8s 1 ease-in-out;
 }
 
-.fade-in-top {
-  -webkit-animation: fade-in-top 1s 1 ease-in-out;
-          animation: fade-in-top 1s 1 ease-in-out;
+.fade-bottom {
+  -webkit-animation: fade-bottom 1s 1 ease-in-out;
+          animation: fade-bottom 1s 1 ease-in-out;
+}
+
+.reader-only {
+  display: none;
+}
+
+@media (max-width: 376px) {
+  .card {
+    max-width: 350px;
+  }
+  .rating {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+  .selection-message {
+    width: 65%;
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    max-width: 300px;
+  }
+  .rating {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .selection-message {
+    width: 75%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -22,7 +22,7 @@ cardForm.addEventListener("submit", function (e) {
             setTimeout(() => {
                 ratingCard.remove();
                 thankYouCard.classList.remove("display-none");
-                thankYouCard.classList.add("fade-in-top")
+                thankYouCard.classList.add("fade-bottom")
             }, flipAnimationDuration)
         )
         }

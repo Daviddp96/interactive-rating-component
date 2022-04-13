@@ -171,8 +171,12 @@ input[type=radio] {
 }
 
 //Visibility and Animations
-.hidden {
+.display-none {
     display: none;
+}
+
+.visibility-hidden {
+    visibility: hidden;
 }
 
 // Footer
@@ -192,4 +196,32 @@ footer {
             }
         }
     }
+}
+
+@keyframes flip {
+	0% {
+		transform: rotateX(0)
+	}
+	100% {
+		transform: rotateX(720deg)
+	}
+}
+
+@keyframes fade-in-top {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px)
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+.flip-animation {
+	animation: flip 1.8s 1 ease-in-out
+}
+
+.fade-in-top {
+	animation: fade-in-top 1s 1 ease-in-out
 }
